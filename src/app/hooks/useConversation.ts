@@ -1,6 +1,9 @@
 import { useParams } from "next/navigation";
 import { useMemo } from "react";
 
+//This hook is to check if the conversation is going or not to perform some 
+//action based on the boolean isOpen
+
 const useConversation = () => {
   const params = useParams();
 
